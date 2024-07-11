@@ -1,0 +1,206 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+}
+header img{
+    width: 70px;
+}
+header{
+    display: flex;
+    background-color: #8CBFB3;
+    color: #459680;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    font-family: "Shrikhand", serif;
+}
+header a{
+    color: #459680;
+}
+nav a:hover{
+    background-color: #99DFA8;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+main img{
+    width:300px;
+    border-radius: 100%;
+    margin: 60px 0;
+    
+}
+#sapaan{
+    display:flex;
+    background-color: #459680;
+    
+    
+    
+}
+#sapaan .sapa{
+    flex-direction: column;
+    margin-left: 50px;
+    margin: 100px;
+    font-size: 30px;
+    
+}
+header nav a{
+    margin: 0 5px;
+    
+    
+}
+#sapaan h1{
+    font-family: "Rubik Bubbles", system-ui;
+    font-size: 40px;
+    color: #B3CBB5;
+    border-color: 13px green solid;
+    margin: 0;
+}
+#sapaan h3{
+    color: #D2FFE6;
+    font-family: "Quattrocento", serif;
+    margin: 0;
+}
+#sapaan h4{
+    font-family: "Quattrocento", serif;
+    color: #8CBFB3;
+    margin: 0;
+    
+}
+#profile{
+    background-color: #60B69F;
+    padding-bottom: 20px;
+    font-family: "Quattrocento", serif;
+    
+}
+
+#profile .biodata{
+    margin: 30px;
+    background-color:#4D9489
+    ;
+    
+}
+#profile h1{
+    margin: 0;
+    color: #B3CBB5;
+    font-family: "Quattrocento", serif;
+
+}
+.biodata h3{
+    margin: 2px;
+    color: #D2FFE6;
+    font-family: "Quattrocento", serif;
+    border: #8CBFB3 solid;
+}
+#aboutme{
+    background-color: #8CBFB3
+    ;
+    padding-bottom: 30px;
+    font-family: "Quattrocento", serif;
+    color: #459680;
+}
+#aboutme .tentangku{
+    margin: 20px;
+    background-color: #DDEFE7
+    ;
+    font-size: small;
+    padding: 20px;
+}
+#aboutme h1{
+    margin: 0;
+    color: #459680;
+
+}
+#skil{
+    background-color: #DDEFE7;
+    padding: 50px;
+    font-family: "Quattrocento", serif;
+    color: #60B69F;
+    
+    
+}
+
+#kontak{
+    background-color: #D2FFE6;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+#kontak h1{
+    font-family: "Quattrocento", serif;
+    font-size: xx-large;
+    font-family: "Courier Prime", monospace;
+    color: #8CBFB3;
+    border: #4D9489 solid;
+}
+#kontak h2{
+    font-family: "Quattrocento", serif;
+    font-size: medium;
+    font-family: "Courier Prime", monospace;
+    color:#459680;
+    
+}
+
+#kontak .kontakku a{
+    color: #8CBFB3;
+    margin: 30px;
+}
+#kontak .kontakku .follow{
+    color: #B3CBB5;
+    border: #459680 solid;
+    font-family: "Rubik Bubbles", system-ui;
+}
+.konek{
+    /* display: flex; */
+    margin: 60px 0 0 0;
+    
+    
+}
+.konek h4{
+    margin: 30px 0 0 0;
+    font-size: 12px;
+    color: #459680;
+}
+.konek img{
+    width: 15px;
+    margin: 10px 0 0 0;
+}
+
+#saran{
+    background-color: #D2FFE6;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#saran h1{
+    font-family: "Courier Prime", monospace;
+    color: #60B69F;
+    border: #4D9489 solid;
+    
+}
+textarea{
+    width: 200%;
+    background-color: #8CBFB3;
+    border: 0;
+}
+#saran form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#saran label{
+    color: #60B69F;
+    font-family: "Courier Prime", monospace;
+}
+#saran input{
+    width: 200%;
+    background-color: #8CBFB3;
+    border: 0;
+}
+#saran input[submit]{
+    width: 20%;
+}
+    

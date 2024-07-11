@@ -1,0 +1,56 @@
+body {
+    font-family: "Bona Nova SC", serif;
+    margin: 0;
+    padding: 0;
+    padding: 30px;
+    background-color: #a0d8c0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+main h1 {
+    text-align: center;
+    color: goldenrod;
+    margin-bottom: 20px;
+    font-family: "Bona Nova SC", serif;
+    
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="email"]{
+    width: 100%;
+    padding: 3px;
+    margin-top: 5px;
+    border: 1px solid #3e2d2d;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    display: flex;
+    font-family: "Bona Nova SC", serif;
+    background-color: #8CBFB3;
+    justify-content: center;
+    border-radius: 5px;
+    width: 100px;
+    border:1px solid #3e2d2d;
+}
+
+
